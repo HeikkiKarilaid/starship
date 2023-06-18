@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      background-color: rgb(77, 82, 82);
+
+      font-family: Arial, sans-serif;
+    }
+    .message-container {
+      background-color: #b6b1b1;
+      border: 1px solid #0e0d0d;
+      padding-top: 30px;
+      padding: 20px;
+      width: 500px;
+      height: 100px;
+
+      white-space: pre-wrap;
+      margin-bottom: 10px;
+    }
+    .engine-run {
+      font-size: 14px;
+      position: relative;
+      border: 1px solid #1a1818;
+      background-color: #b6b1b1;
+      width: 150px;
+      height: 200px;
+      padding: 20px;
+      overflow: auto;
+    }
+    .start {
+      padding-bottom: 20px;
+      background-color: #b6b1b1;
+      color: #1a1818;
+      border: 2 px solid gray;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    #append-btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+  <body>
+    <div class="info">
+      <h1>
+        <button class="start">start simulation</button>
+        <div>start code</div>
+        <div class="message-container"></div>
+        <div>Engine run</div>
+        <div class="engine-run"></div>
+      </h1>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
